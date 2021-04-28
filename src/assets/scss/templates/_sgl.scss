@@ -1,0 +1,43 @@
+.sgl {
+  .page_header {
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    @include break-up(lg) {
+      align-items: flex-end;
+    }
+    .container {
+      flex: 1 0 100%;
+      display: flex;
+      justify-content: center;
+      @include break-up(lg) {
+        justify-content: flex-end;
+      }
+      h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        color: $white;
+        text-shadow: 1px 3px 5px rgba($black, 0.8);
+        margin: 0;
+        display: inline-block;
+        @include break-up(lg) {
+          text-align: right;
+          margin: 0 0 2em 0;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+  }
+  // .container.sgl {}
+}

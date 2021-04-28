@@ -1,0 +1,94 @@
+.header {
+  .contacts {
+    position: relative;
+    .contacts_toggler {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      cursor: pointer;
+      &:hover {
+        .title {
+          text-decoration: underline;
+        }
+      }
+      .title {
+        font-weight: 500;
+        margin-left: 0.7em;
+        color: $blue_lighter;
+      }
+      .micon {
+        display: block;
+        width: 1em;
+        height: 1em;
+
+      }
+    }
+    .dropdown {
+      position: absolute;
+      background-color: $white;
+      box-shadow: $shadow-4;
+      border-radius: 0 0 3px 3px;
+      padding: 0.5em 1em 1em 1em;
+      right: -1em;
+      top: calc(100% + 0.8em);
+      z-index: 1;
+      .contacts_item.aslink {
+        &:hover {
+          .title {
+            text-decoration: underline;
+          }
+        }
+      }
+      .contacts_item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        color: $blue_lighter;
+        &:not(:last-child) {
+          margin-bottom: 0.5em;
+        }
+
+        .title {
+          white-space: nowrap;
+          margin-left: 0.7em;
+          font-weight: 500;
+        }
+        .micon {
+          display: block;
+          width: 1em;
+          height: 1em;
+          &__phone {
+            background-image: str-replace(
+                $phone_solid,
+                'color',
+                $blue_lighter
+            );
+          }
+          &__whatsapp {
+            background-image: str-replace(
+                $whatsapp_simple,
+                'color',
+                $blue_lighter
+            );
+          }
+          &__mail,
+          &__mailb {
+            background-image: str-replace(
+                $envelope_o,
+                'color',
+                $blue_lighter
+            );
+          }
+          &__link {
+            background-image: str-replace(
+                $link,
+                'color',
+                $blue_lighter
+            );
+          }
+        }
+      }
+    }
+  }
+}

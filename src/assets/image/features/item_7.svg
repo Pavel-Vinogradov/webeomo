@@ -1,0 +1,59 @@
+<svg class="m-how_icon m-how_right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 183 142">
+    <g fill="none" stroke="#070707" stroke-width="2">
+        <rect width="181" height="140" x="1" y="1" rx="4" ry="4" style="stroke-dasharray: 642px; stroke-dashoffset: 0px;"></rect>
+        <rect stroke="none" fill="#fefefe" width="181" height="140" x="1" y="1" rx="4" ry="4" style="opacity: 1;"></rect>
+        <rect fill="none" width="181" height="140" x="1" y="1" rx="4" ry="4" style="opacity: 1;"></rect>
+        <path d="m8,8h167v67h-167v-67h1" style="stroke-dasharray: 469px; stroke-dashoffset: 0px;"></path>
+        <g stroke-width="1">
+            <path d="m8,62 18,-18" style="stroke-dasharray: 25.4558px; stroke-dashoffset: 0px;"></path>
+            <path d="m 25,42 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8522px; stroke-dashoffset: 0px;"></path>
+            <path d="m30.5,43.5 16,11" style="stroke-dasharray: 19.4165px; stroke-dashoffset: 0px;"></path>
+            <path d="m 46,56.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8522px; stroke-dashoffset: 0px;"></path>
+            <path d="m50.5,54 9,-17" style="stroke-dasharray: 19.2354px; stroke-dashoffset: 0px;"></path>
+            <path stroke="#e30613" d="m 58,34 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8522px; stroke-dashoffset: 0px;"></path>
+            <path d="m62.5,37 7,17" style="stroke-dasharray: 18.3848px; stroke-dashoffset: 0px;"></path>
+            <path d="m 67.5,56.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m72.5,54.5 11,-11" style="stroke-dasharray: 15.5563px; stroke-dashoffset: 0px;"></path>
+            <path d="m 82.5,41.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m88,42.5 4.5,1.5" style="stroke-dasharray: 4.74342px; stroke-dashoffset: 0px;"></path>
+            <path d="m 92,45 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m97,42.5 14,-18" style="stroke-dasharray: 22.8035px; stroke-dashoffset: 0px;"></path>
+            <path stroke="#e30613" d="m 110,22 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m114.5,25 5.5,11" style="stroke-dasharray: 12.2984px; stroke-dashoffset: 0px;"></path>
+            <path d="m 118.5,38.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m124,40.5 2,1.5" style="stroke-dasharray: 2.5px; stroke-dashoffset: 0px;"></path>
+            <path d="m 125.5,43.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m129.5,46.5 4,10" style="stroke-dasharray: 10.7703px; stroke-dashoffset: 0px;"></path>
+            <path d="m 131,59.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m136,57 7,-21" style="stroke-dasharray: 22.1359px; stroke-dashoffset: 0px;"></path>
+            <path d="m 141,33.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m146,31 7,-9" style="stroke-dasharray: 11.4018px; stroke-dashoffset: 0px;"></path>
+            <path stroke="#e30613" d="m 152,19.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m157,22 3,6" style="stroke-dasharray: 6.7082px; stroke-dashoffset: 0px;"></path>
+            <path d="m 159,30.5 a3 3 0 1 1 0 0.0001z" style="stroke-dasharray: 18.8523px; stroke-dashoffset: 0px;"></path>
+            <path d="m164,28 11,-18" style="stroke-dasharray: 21.095px; stroke-dashoffset: 0px;"></path>
+        </g>
+        <path d="m 12,106 a20 20 0 1 1 0 0.0001z" style="stroke-dasharray: 125.682px; stroke-dashoffset: 0px;"></path>
+        <path stroke-width="1" d="m 20,90 a20 20 0 0 1 31 10 L32,106z" style="stroke-dasharray: 77.9877px; stroke-dashoffset: 0px;"></path>
+        <path stroke-width="1" fill="#070707" d="m 20,90 a20 20 0 0 1 31 10 L32,106z" style="opacity: 1;"></path>
+        <path stroke-width="1" d="m32,106 -11,17" style="stroke-dasharray: 20.2485px; stroke-dashoffset: 0px;"></path>
+
+        <path d="m60,96h25" style="stroke-dasharray: 25px; stroke-dashoffset: 0px;"></path>
+        <path d="m60,103h25" style="stroke-dasharray: 25px; stroke-dashoffset: 0px;"></path>
+        <path d="m60,110h25" style="stroke-dasharray: 25px; stroke-dashoffset: 0px;"></path>
+        <path d="m60,117h18" style="stroke-dasharray: 18px; stroke-dashoffset: 0px;"></path>
+
+        <path d="m 98,106 a20 20 0 1 1 0 0.0001z" style="stroke-dasharray: 125.682px; stroke-dashoffset: 0px;"></path>
+        <path stroke-width="1" d="m 132.3,92 a20 20 0 0 1 5.2 10 L118,106z" style="stroke-dasharray: 51.3442px; stroke-dashoffset: 0px;"></path>
+        <path stroke-width="1" fill="#070707" d="m 132.3,92 a20 20 0 0 1 5.2 10 L118,106z" style="opacity: 1;"></path>
+        <path stroke-width="1" d="m118,106 -19.5,5" style="stroke-dasharray: 20.1308px; stroke-dashoffset: 0px;"></path>
+        <path stroke="#e30613" stroke-width="1" d="m 131,121 a20 20 0 0 1 -5 3.3 L118,106z" style="stroke-dasharray: 45.8351px; stroke-dashoffset: 0px;"></path>
+        <path stroke="none" stroke-width="0" fill="#e30613" d="m 131,121 a20 20 0 0 1 -5 3.3 L118,106z" style="opacity: 1;"></path>
+        <path d="m 98,106 a20 20 0 1 1 0 0.0001z" style="stroke-dasharray: 125.682px; stroke-dashoffset: 0px;"></path>
+
+        <path d="m145,96h25" style="stroke-dasharray: 25px; stroke-dashoffset: 0px;"></path>
+        <path d="m145,103h20" style="stroke-dasharray: 20px; stroke-dashoffset: 0px;"></path>
+        <path d="m145,110h25" style="stroke-dasharray: 25px; stroke-dashoffset: 0px;"></path>
+        <path d="m145,117h18" style="stroke-dasharray: 18px; stroke-dashoffset: -1.59872e-14px;"></path>
+    </g>
+</svg>

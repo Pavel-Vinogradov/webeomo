@@ -1,0 +1,12 @@
+@import './bottom';
+@import './developer';
+@import './copyright';
+@import './menu';
+@import './socials';
+@import './callback';
+
+.footer {
+  background-color: $gray-1;
+  border-top: 1px solid $gray-2;
+
+}

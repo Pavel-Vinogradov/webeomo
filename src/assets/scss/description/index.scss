@@ -1,0 +1,16 @@
+.description {
+  &__wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__article{
+    width: 50%;
+  }
+  &__list{
+    list-style: disc;
+  }
+  &__item{
+    margin: 1em 0;
+  }
+}

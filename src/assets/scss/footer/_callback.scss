@@ -1,0 +1,32 @@
+.footer {
+  .callback {
+    &:hover {
+      &__title {
+        text-decoration: underline;
+      }
+    }
+    &__title {
+      font-weight: 500;
+      margin-left: 0.7em;
+      white-space: nowrap;
+    }
+    .callback_toggler {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      padding: 18px 40px;
+      cursor: pointer;
+
+      .micon {
+        grid-row: span 2;
+        display: block;
+        width: 1em;
+        height: 1em;
+        &__phone {
+          background-image: str-replace($phone_solid, 'color', $blue_lighter);
+        }
+      }
+    }
+  }
+}

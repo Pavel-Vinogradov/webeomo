@@ -1,0 +1,118 @@
+.feedback_wiget {
+  margin: 3em 0;
+  display: grid;
+  align-items: flex-start;
+  gap: 2em;
+  .titles {
+    display: grid;
+    gap: 2em;
+    @include break-up(md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .title {
+      display: flex;
+      border: 1px solid $gray-4;
+      flex-wrap: wrap;
+      flex-direction: row;
+      cursor: pointer;
+      transition: border-color 0.3s;
+      border-radius: 5px;
+      padding: 1em 1.2em;
+      align-items: center;
+      user-select: none;
+      background-color: $white;
+      box-shadow: $shadow-2;
+      justify-content: center;
+      &:hover {
+        border-color: $gray-6;
+      }
+      &.selected {
+        border-color: $gray-6;
+      }
+      &__header {
+        flex: 1 0 calc(100% - 35px);
+        font-size: 1.3em;
+        font-weight: 700;
+        padding-right: 1em;
+      }
+      &__icon {
+        flex: 0 1 auto;
+        width: 35px;
+        .micon {
+          display: block;
+          width: 35px;
+          height: 35px;
+          &__calc {
+            background-image: str-replace($pencil_ruler, 'color', $gray-4);
+          }
+          &__callback {
+            background-image: str-replace($phone_solid, 'color', $gray-4);
+          }
+          &__consult {
+            background-image: str-replace($questions, 'color', $gray-4);
+          }
+        }
+      }
+      &__tip {
+        flex: 1 0 100%;
+        padding-right: 35px;
+        margin-top: 1em;
+      }
+    }
+  }
+  .forms {
+    .form {
+      //display: none;
+      position: relative;
+      width: 30%;
+      &__tip {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 1em 2em 0;
+        margin-bottom: 1em;
+      }
+      .micon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 30px;
+        height: 30px;
+        &__close {
+          background-image: str-replace($times, 'color', $gray-4);
+        }
+        &__close:hover {
+          background-image: str-replace($times, 'color', $gray-6);
+        }
+      }
+    }
+  }
+}
+
+.feedback_wiget.focused {
+  @include break-up(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .titles {
+    grid-template-columns: repeat(3, 1fr);
+    @include break-up(md) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+    }
+    .title__header {
+      display: none;
+      @include break-up(md) {
+        display: block;
+      }
+    }
+    .title__tip {
+      display: none;
+    }
+  }
+  .forms {
+    .form.selected {
+      display: block;
+    }
+  }
+}

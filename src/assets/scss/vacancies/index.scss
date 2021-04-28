@@ -1,0 +1,81 @@
+.vacancies {
+  &__wrapper {
+    padding: 120px 0;
+  }
+  &__img {
+  }
+  &__navbar {
+    padding-top: 2rem;
+  }
+  &-top__list {
+    padding: 20px 0;
+    border-top: 0.5px solid #f6f6f6;
+    border-bottom: 0.5px solid #f6f6f6;
+  }
+  &-top__item {
+  }
+  &-top__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list {
+  }
+  &__item {
+    border-top: 0.5px solid #f6f6f6;
+    border-bottom: 0.5px solid #f6f6f6;
+  }
+  &-start {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    margin-left: 0.5rem;
+  }
+  &__description {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &--title {
+    cursor: pointer;
+    &:active {
+      color: $blue;
+    }
+  }
+  &__name {
+  }
+  &__about {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span {
+      color: $blue;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.micon__vektor {
+  display: block;
+  height: 14px;
+  width: 14px;
+  background-image: str-replace($vector, "color", $blue);
+}
+.micon__up {
+  display: block;
+  height: 14px;
+  width: 27px;
+  background-image: str-replace($up, "color", $blue);
+}
+.micon__down {
+  display: block;
+  height: 14px;
+  width: 27px;
+  background-image: str-replace($down, "color", $blue);
+}
+
+.vacancies {
+  background: url("../image/vacancies/main.png") no-repeat center;
+  background-size: cover;
+}

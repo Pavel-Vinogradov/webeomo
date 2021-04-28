@@ -1,0 +1,23 @@
+@import './navigation';
+@import './burger';
+@import './header';
+@import './contacts';
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 500ms cubic-bezier(0.37, 0, 0.63, 1);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.5s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateY(-15rem);
+  opacity: 0;
+}
+
+.header__navbar-item:nth-child(3) > a {
+  color: $mainBlue;
+}

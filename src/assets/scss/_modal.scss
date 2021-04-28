@@ -1,0 +1,69 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.modalbackgroud {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($black, 0.8);
+  overflow-y: auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: $white;
+  box-shadow: $shadow-6;
+  border-radius: 5px;
+  color: black;
+  &__answer{
+    text-align: center;
+  }
+  &__sm {
+    width: 400px;
+    @include break-down(sm) {
+      width: 100%;
+      margin: 2em;
+    }
+  }
+  &__header {
+    position: relative;
+    padding: 2em 1em;
+    .micon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    h5 {
+      display: block;
+      text-align: center;
+      font-size: 1.2em;
+      margin: 0;
+    }
+  }
+  &__body {
+    padding: 0 1em 2em;
+  }
+  .micon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-size: 40%;
+    &__close {
+      background-image: str-replace($times, 'color', $gray-6);
+    }
+    &__close:hover {
+      background-image: str-replace($times, 'color', $gray-9);
+    }
+  }
+}

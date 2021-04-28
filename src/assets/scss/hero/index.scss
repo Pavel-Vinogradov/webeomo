@@ -1,0 +1,39 @@
+.hero {
+  &-block {
+    display: grid;
+    //background: url("../image/hero/main.png") top no-repeat;
+    //background-size: cover;
+
+  }
+  &-text__btn {
+    margin-top: 40px;
+    width: 240px;
+  }
+  &-text {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 118px 0;
+    color: white;
+    position: relative;
+  }
+
+  &-text__title {
+    padding: 90px 0 10px;
+    @include break-down(md) {
+      font-size: 32px;
+    }
+  }
+
+  &-text__subtitle {
+    font-size: 36px;
+    @include break-up(lg) {
+      font-size: 30px;
+    }
+    @include break-down(md) {
+      font-size: 24px;
+    }
+    @include break-down(xs) {
+      font-size: 16px;
+    }
+  }
+}

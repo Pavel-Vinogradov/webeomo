@@ -1,0 +1,15 @@
+.crumbs {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.85em;
+  margin-bottom: 2em;
+  align-content: center;
+  .delimitter {
+    margin: 0 1em;
+    &::after {
+      display: block;
+      content: '/';
+      color: black;
+    }
+  }
+}

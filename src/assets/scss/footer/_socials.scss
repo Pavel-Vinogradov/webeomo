@@ -1,0 +1,57 @@
+.footer {
+  .menu__item.contacts {
+    .socials {
+      display: flex;
+      flex: 0 1 auto;
+      margin-top: 1em;
+      .micon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.2s;
+        &:not(:last-child) {
+          margin-right: 1em;
+        }
+        &__viber {
+          background-image: str-replace($viber-tinted, 'color', $gray-6);
+        }
+        &__viber:hover {
+          background-image: $viber-colored;
+        }
+        &__whatsapp {
+          background-image: str-replace($whatsapp-tinted, 'color', $gray-6);
+        }
+        &__whatsapp:hover {
+          background-image: $whatsapp-colored;
+        }
+        &__vk {
+          background-image: str-replace($vk-tinted, 'color', $gray-6);
+          &:hover {
+            background-image: $vk-colored;
+          }
+        }
+        &__upWork{
+          background-image: str-replace($upWork-tinted, 'color', $gray-1);
+          &:hover {
+            background-image: $upWork-colored;
+          }
+        }
+        &__facebook {
+          background-image: str-replace($facebook-tinted, 'color', $gray-6);
+          &:hover {
+            background-image: $facebook-colored;
+          }
+        }
+        &__instagram {
+          background-image: str-replace($instagram-tinted, 'color', $gray-6);
+          &:hover {
+            background-image: $instagram-colored;
+          }
+        }
+      }
+    }
+  }
+}

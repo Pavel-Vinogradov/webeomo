@@ -1,0 +1,31 @@
+.m-section_nav {
+  display: flex !important;
+  align-items: center;
+  position: fixed;
+  transform: translatez(998px);
+  top: 0;
+  right: 0;
+  padding-right: 2%;
+  height: 100vh;
+  z-index: 2;
+}
+.m-section_nav .m-section_nav_ul {
+  display: block;
+}
+.m-section_nav .m-section_nav_ul_li {
+  display: block;
+}
+.m-section_nav .m-section_nav_ul_li_a {
+  display: block;
+  font-size: 1.5rem;
+  background-image: str-replace($target, 'color', $gray-6);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding: 0.5em 1.5em 0.5em 0.5em;
+  transition: none;
+}
+.m-section_nav .m-section_nav_ul_li_a.current_section_nav_a,
+.m-section_nav .m-section_nav_ul_li_a:hover {
+  background-image: str-replace($target-current, 'color', $gray-6);
+}

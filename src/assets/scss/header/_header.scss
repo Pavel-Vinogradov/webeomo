@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  background: $white;
+
+  position: fixed;
+  z-index: 3;
+  box-shadow: $shadow-2;
+
+  .micon {
+    display: block;
+    width: 88px;
+    height: 88px;
+  }
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-start {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    &-logo {
+      background-image: str-replace($logo, "color", $white);
+    }
+
+    &-list {
+      display: flex;
+    }
+    .callback {
+      display: none;
+
+      @include break-up(md) {
+        display: block;
+      }
+    }
+
+    &-item {
+      padding: 0.75rem;
+      font-size: 1.125rem;
+      font-weight: 500;
+
+      .router-link-exact-active {
+        color: $mainBlue;
+        border-bottom: 2px solid $mainBlue;
+      }
+
+      &:nth-child(3) {
+        color: #8e98f3;
+      }
+      &:hover {
+        color: #9b9b9b;
+      }
+    }
+    &-end {
+      @include break-down(sm) {
+        display: none;
+      }
+    }
+  }
+}
+.toleft {
+  padding-left: 100px;
+}
