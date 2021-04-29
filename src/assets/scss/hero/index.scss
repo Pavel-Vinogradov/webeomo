@@ -1,9 +1,11 @@
 .hero {
   &-block {
     display: grid;
-    //background: url("../image/hero/main.png") top no-repeat;
-    //background-size: cover;
 
+    @include break-down(sm) {
+      background: url("../image/hero/main.png") top no-repeat;
+      background-size: cover;
+    }
   }
   &-text__btn {
     margin-top: 40px;

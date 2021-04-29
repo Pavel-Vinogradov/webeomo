@@ -18,7 +18,7 @@
         <Callback />
       </ul>
     </div>
-    <IndexMaps />
+    <IndexMaps  />
   </div>
 </template>
 

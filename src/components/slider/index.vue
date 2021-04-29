@@ -2,7 +2,7 @@
   <div class="partners_wiget section">
     <h2 class="section__title">{{ title }}</h2>
     <div class="partnersslider">
-      <Carousel :items-to-show="5" :wrap-around="true">
+      <Carousel :items-to-show="3" :wrap-around="true">
         <Slide v-for="(item, idx) in list" :key="idx">
           <div class="carousel__item">
             <img

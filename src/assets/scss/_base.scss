@@ -24,8 +24,14 @@ h1 {
   font-family: $TitleFontFamily;
   font-weight: $TitleltFontWeight;
   font-size: $TitleFontSize;
-  @include break-up(lg) {
+  @include break-down(lg) {
     font-size: 48px;
+  }
+  @include break-down(sm) {
+    font-size: 40px;
+  }
+  @include break-down(xs) {
+    font-size: 32px;
   }
 
 }
@@ -33,8 +39,14 @@ h2 {
   font-family: $TitleFontFamily;
   font-weight: $TitleltFontWeight;
   font-size: 48px;
-  @include break-up(lg) {
+  @include break-down(lg) {
     font-size: 40px;
+  }
+  @include break-down(sm) {
+    font-size: 32px;
+  }
+  @include break-down(xs) {
+    font-size: 28px;
   }
 }
 
@@ -42,8 +54,14 @@ h3 {
   font-family: "Rubik Medium", sans-serif;
   font-size: 36px;
   font-weight: 500;
-  @include break-up(lg) {
+  @include break-down(lg) {
     font-size: 30px;
+  }
+  @include break-down(sm) {
+    font-size: 24px;
+  }
+  @include break-down(xs) {
+    font-size: 20px;
   }
 }
 .blue {
