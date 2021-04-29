@@ -6,69 +6,60 @@ import { createRouter, createWebHistory } from "vue-router";
 //   return import("@/layouts/" + layout + ".vue");
 // });
 function index() {
-  return import(/* webpackChunkName: "index" */ '@/pages/index.vue')
+  return import(/* webpackChunkName: "index" */ "@/pages/index.vue");
 }
 function about() {
-  return import(/* webpackChunkName: "about" */ '@/pages/about.vue')
+  return import(/* webpackChunkName: "about" */ "@/pages/about.vue");
 }
 function polyce() {
-  return import(/* webpackChunkName: "polyce" */ '@/pages/polyce.vue')
+  return import(/* webpackChunkName: "polyce" */ "@/pages/polyce.vue");
 }
 function vacancies_index() {
   return import(
-      /* webpackChunkName: "vacancies-index" */ '@/pages/vacancies/index.vue'
-      )
-}
-function policy_policy() {
-  return import(
-      /* webpackChunkName: "policy-policy" */ '@/pages/policy/policy.vue'
-      )
-}
-function vacancies__id_index() {
-  return import(
-      /* webpackChunkName: "vacancies-id-index" */ '@/pages/vacancies/_id/index.vue'
-      )
+    /* webpackChunkName: "vacancies-index" */ "@/pages/vacancies/index.vue"
+  );
 }
 
-const routes= [
+function vacancies__id_index() {
+  return import(
+    /* webpackChunkName: "vacancies-id-index" */ "@/pages/vacancies/_id/index.vue"
+  );
+}
+
+const routes = [
   {
-    name: 'index',
-    path: '/',
-    component: index,
+    name: "index",
+    path: "/",
+    component: index
   },
   {
-    name: 'about',
-    path: '/about',
-    component: about,
+    name: "about",
+    path: "/about",
+    component: about
   },
   {
-    name: 'polyce',
-    path: '/polyce',
-    component: polyce,
+    name: "polyce",
+    path: "/polyce",
+    component: polyce
   },
   {
-    name: 'vacancies',
-    path: '/vacancies',
-    component: vacancies_index,
+    name: "vacancies",
+    path: "/vacancies",
+    component: vacancies_index
   },
   {
-    name: 'policy-policy',
-    path: '/policy/policy',
-    component: policy_policy,
-  },
-  {
-    name: 'vacancies-id',
-    path: '/vacancies/:id',
-    component: vacancies__id_index,
-  },
-]
+    name: "vacancies-id",
+    path: "/vacancies/:id",
+    component: vacancies__id_index
+  }
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes: [
     {
       path: "/",
-      component: ()=>import("@/layouts/default.vue"),
+      component: () => import("@/layouts/default.vue"),
       children: routes
     }
   ]
