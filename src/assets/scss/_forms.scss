@@ -46,14 +46,14 @@
     outline: none;
     margin-top: 20px;
 
-    @include break-up(xs) {
+    @include break-down(xs) {
       padding: 0.5em 1.0em; }
 
   }
 }
 .form__with{
   width: 35%;
-  @include break-up(xs) {
+  @include break-down(xs) {
     width: 100%;  }
 }
 
